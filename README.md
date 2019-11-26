@@ -66,5 +66,5 @@ AddHandler php7-script .txt
 ```
 即可解析php
 最后是bypass `open_basedir`
-最后附上一份比赛时用于检测flag的脚本
+最后附上一份比赛时用于检测flag的[脚本](https://github.com/Lou00/d3ctf_2019_ezupload/blob/master/poc.py)
 供师傅们参考

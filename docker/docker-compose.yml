@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: 'd3ctf_2019/ezupload'
+    container_name: 'ezupload'
+    build: .
+    ports:
+      - 8001:80

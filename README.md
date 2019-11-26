@@ -3,9 +3,13 @@
 > 出题人：Lou00@Vidar
 
 > 考察点：glob://爆破 文件上传写shell
+
 > 题目描述: webroot in /var/www/html
+
 > hint1: webroot changes every 10 mins
+
 > hint2: glob
+
 > hint3: https://www.php.net/manual/en/language.oop5.decon.php   Pay attention to the notes in the article 
 
 ## 前言

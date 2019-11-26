@@ -1,11 +1,12 @@
 # D^3ctf 2019 Official Writeup ezupload
+:::info
 > 出题人：Lou00@Vidar
 > 考察点：glob://爆破 文件上传写shell
 > 题目描述: webroot in /var/www/html
 > hint1: webroot changes every 10 mins
 > hint2: glob
 > hint3: https://www.php.net/manual/en/language.oop5.decon.php   Pay attention to the notes in the article 
-
+:::
 ## 前言
 赛后看到了Nu1l的非预期,直接把第一考点绕过了
 导致给的一些hint没啥用 (hint真是害人不浅_(:з」∠)_

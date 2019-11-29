@@ -4,7 +4,7 @@ class dir{
     public $url;
     public $filename;
     public function __construct($url,$filename) {
-        $this->userdir = "upload/" . md5($_SERVER["HTTP_X_REAL_IP"]);
+        $this->userdir = "upload/" . md5($_SERVER["REMOTE_ADDR"]);
         $this->url = $url;
         $this->filename  =  $filename;
         if (!file_exists($this->userdir)) {
@@ -12,7 +12,7 @@ class dir{
         }
     }
     public function checkdir(){
-        if ($this->userdir != "upload/" . md5($_SERVER["HTTP_X_REAL_IP"])) {
+        if ($this->userdir != "upload/" . md5($_SERVER["REMOTE_ADDR"])) {
             die('hacker!!!');
         }
     }
